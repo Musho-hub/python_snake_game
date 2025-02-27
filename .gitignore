@@ -9,3 +9,4 @@ logs/
 *.log
 .env
 highscore.txt
+previous.py
