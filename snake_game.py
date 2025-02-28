@@ -21,8 +21,8 @@ class Config:
     RED = (227, 54, 54) # Food color
 
     # Font sizes
-    FONT_SIZE = 36 # Regular font size for text
-    FONT_TITLE_SIZE = 72 # Larger font size for titles
+    FONT_SIZE = 36 # Regular font size for text 36
+    FONT_TITLE_SIZE = 72 # Larger font size for titles 72
 
 class Snake:
     def __init__(self):
