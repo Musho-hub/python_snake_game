@@ -2,7 +2,6 @@ import pygame
 import sys
 import random # For generating random positions for the food
 import os # For file operations (loading/saving high score)
-import math # Visual effects
 from collections import deque # For managing direction changes in the snake
 
 class Config:
@@ -21,8 +20,8 @@ class Config:
     RED = (227, 54, 54) # Food color
 
     # Font sizes
-    FONT_SIZE = 36 # Regular font size for text 36
-    FONT_TITLE_SIZE = 72 # Larger font size for titles 72
+    FONT_SIZE = 36 # Regular font size for text
+    FONT_TITLE_SIZE = 72 # Larger font size for titles
 
 class Snake:
     def __init__(self):
